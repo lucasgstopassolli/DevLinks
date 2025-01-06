@@ -28,7 +28,7 @@ body{
     background-image: var(--bg-url);
     background-repeat: no-repeat;
     background-size: cover;
-     display: flex;
+    display: flex;
     flex-direction: column;;
 }
 
@@ -43,7 +43,8 @@ body *{
     align-items: center;
     justify-content: center;
     margin: 56px auto 0px;
-    width: 360px;
+    width: 100%;
+    max-width: 588px;
     padding: 0px 24px;
 }
 
