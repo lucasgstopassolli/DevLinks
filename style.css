@@ -87,6 +87,11 @@ body *{
     animation: slide-back 0.4s forwards;
 }  
 
+.switch button:hover{
+    outline: 8px solid var(--hightlight-color);
+    transition: 0.05s ease;
+}
+
 .light .switch button{
     animation: slide-in 0.4s forwards;
 }
